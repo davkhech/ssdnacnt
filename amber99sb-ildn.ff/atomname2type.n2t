@@ -1,0 +1,8 @@
+; Oplsaa-based n2t for carbon-based structures such as CNTs and graphenes
+; Andrea Minoia
+H    HJ    0.00       1.008  1    C 0.109                              ;Hydrogen
+C    CJ    0.00      12.011  3    C 0.142   H 0.109   H 0.109 ;Periferic C
+C    CJ    0.00      12.011  3    C 0.142   C 0.142   H 0.108 ;Periferic C
+C    CJ    0.00      12.011  1    C 0.142                          ;Internal/periodic C
+C    CJ    0.00      12.011  2    C 0.142   C 0.142            ;Internal/periodic C
+C    CJ    0.00      12.011  3    C 0.142   C 0.142   C 0.142 ;Internal/periodic C

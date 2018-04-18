@@ -1,0 +1,26 @@
+; New format introduced in Gromacs 3.1.4.
+; Dont use this forcefield with earlier versions.
+
+; Oplsaa-based rtp for carbon-based structures such as CNTs and graphenes
+; Andrea Minoia
+
+; NB: OPLS chargegroups are not strictly neutral, since we mainly
+; use them to optimize the neighborsearching. For accurate simulations
+; you should use PME.
+
+[ bondedtypes ]
+; Col 1: Type of bond
+; Col 2: Type of angles
+; Col 3: Type of proper dihedrals
+; Col 4: Type of improper dihedrals
+; Col 5: Generate all dihedrals if 1, only heavy atoms of 0.
+; Col 6: Number of excluded neighbors for nonbonded interactions
+; Col 7: Generate 1,4 interactions between pairs of hydrogens if 1
+; Col 8: Remove propers over the same bond as an improper if it is 1
+; bonds  angles  dihedrals  impropers all_dihedrals nrexcl HH14 RemoveDih
+     1       1          3          1        0         3      1     0
+
+
+
+
+
