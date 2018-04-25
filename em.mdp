@@ -1,0 +1,2 @@
+pbc		        = xyz 		; Periodic Boundary Conditions (yes/no)
+periodic_molecules  = yes
