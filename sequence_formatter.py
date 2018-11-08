@@ -1,3 +1,8 @@
+"""
+Utility to make dna structure readable for amber ff.
+
+davkhech
+"""
 import argparse
 import re
 
